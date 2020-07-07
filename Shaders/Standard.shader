@@ -99,8 +99,8 @@ Shader "Toon/Standard"
             #pragma fragment LitPassFragmentSimple
             #define BUMP_SCALE_NOT_SUPPORTED 1
 
-            #include "Packages/com.lover-drive.toonshader/Shaders/ToonLitInput.hlsl"
-            #include "Packages/com.lover-drive.toonshader/Shaders/ToonLitForwardPass.hlsl"
+            #include "Packages/com.lover-drive.toon-shader/Shaders/ToonLitInput.hlsl"
+            #include "Packages/com.lover-drive.toon-shader/Shaders/ToonLitForwardPass.hlsl"
             ENDHLSL
         }
 
