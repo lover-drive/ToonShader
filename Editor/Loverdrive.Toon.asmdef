@@ -1,0 +1,15 @@
+{
+    "name": "Loverdrive.Toon",
+    "references": [
+        "GUID:c579267770062bf448e75eb160330b7f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
