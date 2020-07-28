@@ -135,7 +135,7 @@ float3 GetLighting(InputData inputData, half3 diffuse, half4 specularGloss, half
     Light mainLight = GetMainLight(inputData.shadowCoord);
     MixRealtimeAndBakedGI(mainLight, inputData.normalWS, inputData.bakedGI, half4(0, 0, 0, 0));
 
-    half3 attenuatedLightColor = mainLight.color * LightingToon(mainLight.color, mainLight.direction, inputData.normalWS, (mainLight.distanceAttenuation * mainLight.shadowAttenuation));
+    half3 attenuatedLightColor = LightingToon(mainLight.color, mainLight.direction, inputData.normalWS, (mainLight.distanceAttenuation * mainLight.shadowAttenuation));
     half3 diffuseColor = inputData.bakedGI + attenuatedLightColor;
     half3 specularColor = LightingToonSpecular(attenuatedLightColor, mainLight.direction, inputData.normalWS, inputData.viewDirectionWS, specularGloss, smoothness);
 
