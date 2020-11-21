@@ -1,7 +1,7 @@
 {
     "name": "com.lover-drive.toon-shader",
     "displayName": "Toon Shader",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "unity": "2018.1",
     "description": "A lightweight toon shader for Universal Render Pipeline.",
     "category": ""
